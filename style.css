@@ -62,10 +62,10 @@ nav a.active{
     border-bottom: 3px solid #b74b4b;
 }
 
-@media(max-width:995px){
+@media(max-width:768px){
     nav{
         position: absolute;
-        display: none;
+        display: block;
         top: 0;
         right: 0;
         width: 40%;
@@ -211,7 +211,7 @@ span{
     }
 }
 
-@media(max-width:995px){
+@media(max-width:768px){
     .home{
         flex-direction: column;
         margin: 5rem 4rem;
